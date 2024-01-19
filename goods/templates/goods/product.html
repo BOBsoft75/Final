@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="card-body">
-            <p class="card-text">Цена: <strong>{{ product.sell_price }} $</strong></p>
+            <p class="card-text">Цена: <strong>{{ product.sell_price }} руб</strong></p>
             <h5 class="card-title">{{ product.name }}</h5>
             <p class="card-text">{{ product.description }}</p>
             <a href="{% url "cart:cart_add" %}" class="btn btn-dark add-to-cart"
