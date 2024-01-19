@@ -31,7 +31,7 @@
                     <div class="col p-0">
                         <p>x {{ cart.product.sell_price }} = </p>
                     </div>
-                    <div class="col p-0"><strong> {{cart.products_price}} $</strong></div>
+                    <div class="col p-0"><strong> {{cart.products_price}} руб</strong></div>
                     <div class="col p-0">
                         <a href="{% url "cart:cart_remove" %}" class="remove-from-cart"
                         data-cart-id="{{ cart.id }}">
