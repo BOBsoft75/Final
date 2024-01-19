@@ -4,7 +4,11 @@
 * Установить и активировать виртуальное окружение.
     python -m venv venv
     venv\Sripts\activate
-* Создать БД (postgresql), выполнить миграции
+* Установить необходимые библиотеки, перечисленные в файле requirements.txt
+    pip install -r requirements.txt
+* Перейти в каталог приложения
+    cd app
+* Создать БД (postgresql) и выполнить миграции
     python manage.py migrate
 * Создать superuser
     python manage.py createsuperuser
