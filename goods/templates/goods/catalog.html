@@ -91,11 +91,11 @@
                     <div class="d-flex justify-content-between">
 
                         {% if product.discount %}
-                            <p><s>{{product.price}}</s> $</p>
-                            <p><strong>{{ product.sell_price }} $</strong></p>
+                            <p><s>{{product.price}}</s> руб</p>
+                            <p><strong>{{ product.sell_price }} руб</strong></p>
                             <span class="badge bg-warning text-dark">Скидка {{ product.discount }} %</span>
                         {% else %}
-                            <p><strong>{{ product.price }} $</strong></p>
+                            <p><strong>{{ product.price }} руб</strong></p>
                         {% endif %}
 
                         <a href="{% url "cart:cart_add" %}" class="btn add-to-cart"
