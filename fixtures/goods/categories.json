@@ -1,0 +1,58 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Все товары",
+            "slug": "all"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Кровати",
+            "slug": "krovati"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Комоды",
+            "slug": "komody"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 9,
+        "fields": {
+            "name": "Шкафы",
+            "slug": "shkafy"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 10,
+        "fields": {
+            "name": "Тумбочки",
+            "slug": "tumbochki"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 11,
+        "fields": {
+            "name": "Стулья",
+            "slug": "stulya"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 12,
+        "fields": {
+            "name": "Столы",
+            "slug": "stoly"
+        }
+    }
+]
